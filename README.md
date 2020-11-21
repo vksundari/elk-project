@@ -45,18 +45,18 @@ Load balancing ensures that the application will be highly _____, in addition to
 - _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+- : What does Filebeat watch for?_ - **Filebeat** collects data about the file system.
+- : What does Metricbeat record?_ - **Metricbeat** collects machine metrics, such as uptime.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name     | Function | IP Address     | Operating System |
+|----------|----------|------------    |------------------|
+| Jump Box | Gateway  | 104.210.72.186 | Linux            |
+| Web 1    |          | 10.0.0.5       | Linux            |
+| Web 2    |          | 10.0.0.6       | Linux            |
+|Elk Server|          | 10.1.0.4       | Linux            |
 
 ### Access Policies
 
